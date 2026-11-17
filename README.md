@@ -104,6 +104,5 @@ por usuario; la semilla de partición y la del optimizador son independientes.
 | `controles_pi4.py`, `sesgos_propios.py` | Controles de la estabilidad |
 | `tablas_pi5.py`, `control_trayectoria.py`, `barrido_sgd_poblacion.py` | Comparación con el descenso de gradiente y término de explicabilidad en el *fitness* |
 
-Los archivos `analisis/*.json` y `analisis/casos_estudio/` son los resultados con los
-que se escribió la tesis. `analisis/modelos/` guarda los parámetros del modelo adoptado
+`analisis/modelos/` guarda los parámetros del modelo adoptado
 con la semilla 42, que usan los casos de estudio.
