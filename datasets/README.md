@@ -15,7 +15,6 @@ datasets/
 |---|---|
 | MovieLens 100K | https://grouplens.org/datasets/movielens/100k/ |
 | Last.fm HetRec2011 | https://grouplens.org/datasets/hetrec-2011/ |
-| Book-Crossing | Ziegler et al. (2005). Se usa la versión con `Ratings.csv` (`User-ID;ISBN;Rating`) y `Books.csv` (`ISBN;Title;...`), separados por punto y coma |
+| Book-Crossing | Ziegler et al. (2005). Se usa la versión con `Ratings.csv` (`User-ID;ISBN;Rating`) y `Books.csv` (`ISBN;Title;...`)|
 
-El cuaderno de demostración descarga MovieLens 100K y Last.fm HetRec2011 si no los
-encuentra.
+El cuaderno de demostración descarga MovieLens 100K y Last.fm HetRec2011 si no se encuentran
