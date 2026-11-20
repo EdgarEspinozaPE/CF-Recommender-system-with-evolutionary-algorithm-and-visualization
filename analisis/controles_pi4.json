@@ -1,0 +1,320 @@
+{
+ "movielens": {
+  "ruido_promedio": {
+   "confidence": {
+    "media": 0.6819006060869566,
+    "desv_semillas": 0.0018797238270811195,
+    "error_tipico_usuario": 0.0024310266068279236,
+    "error_tipico_recomendacion": 0.0008922318685961144
+   },
+   "preference_match": {
+    "media": 0.47682301474019084,
+    "desv_semillas": 0.0012115523664942762,
+    "error_tipico_usuario": 0.0036419756222844457,
+    "error_tipico_recomendacion": 0.0013806204217587732
+   },
+   "ablation_shift": {
+    "media": 0.051244308547189824,
+    "desv_semillas": 0.001017417160572457,
+    "error_tipico_usuario": 0.0009081389605436052,
+    "error_tipico_recomendacion": 0.0004265094005345262
+   },
+   "necessity": {
+    "media": 0.6559066808059384,
+    "desv_semillas": 0.022668170485467674,
+    "error_tipico_usuario": 0.007020444243622229,
+    "error_tipico_recomendacion": 0.004887495251578699
+   },
+   "sufficiency": {
+    "media": 0.8939978791092258,
+    "desv_semillas": 0.00470591683333123,
+    "error_tipico_usuario": 0.0035222809234129746,
+    "error_tipico_recomendacion": 0.0031694659913759755
+   }
+  },
+  "jaccard_con_sesgos": 0.3088918227649436,
+  "comunes_tambien_en_sesgos": 0.7795689601217342,
+  "control_pm_adoptado": {
+   "pm": 0.47682301474019084,
+   "error_reproduccion": 4.999469700672776e-07,
+   "pm_permutado": 0.46832603889893754,
+   "cobertura_evidencia": 0.9998515376458113,
+   "cobertura_evidencia_permutada": 0.9998444680098976,
+   "pm_por_segmento": {
+    "escasos": null,
+    "medios": 0.3267692197080292,
+    "densos": 0.5023284364764268
+   },
+   "pm_permutado_por_segmento": {
+    "escasos": null,
+    "medios": 0.32172264536617545,
+    "densos": 0.4932449779981788
+   }
+  },
+  "control_pm_otros": {
+   "sgd_lr0.005_ep30_s0.1_seed42": {
+    "pm": 0.5070383189819725,
+    "error_reproduccion": 4.999122901194752e-07,
+    "pm_permutado": 0.4736950127280843,
+    "cobertura_evidencia": 0.9997879109225875,
+    "cobertura_evidencia_permutada": 0.9998232591021562,
+    "pm_por_segmento": {
+     "escasos": null,
+     "medios": 0.34175124452554745,
+     "densos": 0.535133020223325
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": null,
+     "medios": 0.3239580107472609,
+     "densos": 0.4991465875064625
+    }
+   },
+   "sgd_lr0.02_ep10_s0.1_seed42": {
+    "pm": 0.5246958585365854,
+    "error_reproduccion": 4.99834613587602e-07,
+    "pm_permutado": 0.46967977655804566,
+    "cobertura_evidencia": 0.999575821845175,
+    "cobertura_evidencia_permutada": 0.9997879109225876,
+    "pm_por_segmento": {
+     "escasos": null,
+     "medios": 0.3570229233576643,
+     "densos": 0.553196096898263
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": null,
+     "medios": 0.3231478789816575,
+     "densos": 0.49458656311879645
+    }
+   },
+   "evo_dir_s0.1_seed42": {
+    "pm": 0.46782436882290557,
+    "error_reproduccion": 4.99962931277409e-07,
+    "pm_permutado": 0.46711743242925535,
+    "cobertura_evidencia": 0.9998939554612938,
+    "cobertura_evidencia_permutada": 0.9998939554612938,
+    "pm_por_segmento": {
+     "escasos": null,
+     "medios": 0.3208247233576642,
+     "densos": 0.49281066091811415
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": null,
+     "medios": 0.3182320786291163,
+     "densos": 0.4924242481496264
+    }
+   }
+  }
+ },
+ "lastfm": {
+  "ruido_promedio": {
+   "confidence": {
+    "media": 0.42626409387842923,
+    "desv_semillas": 0.002524675954786422,
+    "error_tipico_usuario": 0.0015338373915367038,
+    "error_tipico_recomendacion": 0.0006034141678219039
+   },
+   "preference_match": {
+    "media": 0.15830123613770844,
+    "desv_semillas": 0.0005964750576509826,
+    "error_tipico_usuario": 0.002717288478624275,
+    "error_tipico_recomendacion": 0.0009995753367059673
+   },
+   "ablation_shift": {
+    "media": 0.0865619579774072,
+    "desv_semillas": 0.003816326623342643,
+    "error_tipico_usuario": 0.000920748478895431,
+    "error_tipico_recomendacion": 0.0003512369476980001
+   },
+   "necessity": {
+    "media": 0.933501882732652,
+    "desv_semillas": 0.030661301584467913,
+    "error_tipico_usuario": 0.0028184639440981935,
+    "error_tipico_recomendacion": 0.0017858365709298898
+   },
+   "sufficiency": {
+    "media": 0.7576438945669715,
+    "desv_semillas": 0.0051816314157066504,
+    "error_tipico_usuario": 0.004014426565337445,
+    "error_tipico_recomendacion": 0.003142657711618884
+   }
+  },
+  "jaccard_con_sesgos": 0.07234686751604699,
+  "comunes_tambien_en_sesgos": 0.48037953847406517,
+  "control_pm_adoptado": {
+   "pm": 0.15830123613770847,
+   "error_reproduccion": 4.999698837215849e-07,
+   "pm_permutado": 0.14346897546329518,
+   "cobertura_evidencia": 0.6888219472834857,
+   "cobertura_evidencia_permutada": 0.6631414739107047,
+   "pm_por_segmento": {
+    "escasos": 0.04282686222222222,
+    "medios": 0.07324059509615384,
+    "densos": 0.16970920367844095
+   },
+   "pm_permutado_por_segmento": {
+    "escasos": 0.031197959911480323,
+    "medios": 0.06527711752376072,
+    "densos": 0.15398928337522544
+   }
+  },
+  "control_pm_otros": {
+   "sgd_lr0.005_ep30_s0.1_seed42": {
+    "pm": 0.15512213905325442,
+    "error_reproduccion": 4.999846673903185e-07,
+    "pm_permutado": 0.1428566661344049,
+    "cobertura_evidencia": 0.6730500268961808,
+    "cobertura_evidencia_permutada": 0.6615025999641384,
+    "pm_por_segmento": {
+     "escasos": 0.028046166666666667,
+     "medios": 0.06980708173076923,
+     "densos": 0.1666259244823386
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": 0.030977180187408127,
+     "medios": 0.06562533219775778,
+     "densos": 0.1532531538520331
+    }
+   },
+   "sgd_lr0.02_ep10_s0.1_seed42": {
+    "pm": 0.1576612494351802,
+    "error_reproduccion": 4.999743470346374e-07,
+    "pm_permutado": 0.14401467321771333,
+    "cobertura_evidencia": 0.6734265734265734,
+    "cobertura_evidencia_permutada": 0.6646942800788954,
+    "pm_por_segmento": {
+     "escasos": 0.032659655555555556,
+     "medios": 0.07110347692307692,
+     "densos": 0.16931108562728378
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": 0.041083203510803384,
+     "medios": 0.06539977902900133,
+     "densos": 0.15453737797935418
+    }
+   },
+   "evo_dir_s0.1_seed42": {
+    "pm": 0.14303275551371705,
+    "error_reproduccion": 4.999627176982546e-07,
+    "pm_permutado": 0.14767183699850583,
+    "cobertura_evidencia": 0.6610543302850995,
+    "cobertura_evidencia_permutada": 0.6676528599605523,
+    "pm_por_segmento": {
+     "escasos": 0.02522057777777778,
+     "medios": 0.06045884230769231,
+     "densos": 0.15413853112058468
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": 0.035877465963728324,
+     "medios": 0.06722420039447406,
+     "densos": 0.1584752826458576
+    }
+   }
+  }
+ },
+ "bookcrossing": {
+  "ruido_promedio": {
+   "confidence": {
+    "media": 0.42312055992028463,
+    "desv_semillas": 0.0020506041733353935,
+    "error_tipico_usuario": 0.0011734396329926673,
+    "error_tipico_recomendacion": 0.00041954087062937744
+   },
+   "preference_match": {
+    "media": 0.30552276616654805,
+    "desv_semillas": 0.0009882588201357671,
+    "error_tipico_usuario": 0.0014885845420664697,
+    "error_tipico_recomendacion": 0.000606470904747924
+   },
+   "ablation_shift": {
+    "media": 0.11158038732811389,
+    "desv_semillas": 0.0013174877545300192,
+    "error_tipico_usuario": 0.0006043262706665058,
+    "error_tipico_recomendacion": 0.00022832085126806264
+   },
+   "necessity": {
+    "media": 0.9696626334519574,
+    "desv_semillas": 0.01398516710211675,
+    "error_tipico_usuario": 0.0010738023043406638,
+    "error_tipico_recomendacion": 0.0006319425662163272
+   },
+   "sufficiency": {
+    "media": 0.736179359430605,
+    "desv_semillas": 0.005786145061901967,
+    "error_tipico_usuario": 0.0021555129315719117,
+    "error_tipico_recomendacion": 0.0016625993496574946
+   }
+  },
+  "jaccard_con_sesgos": 0.04863114523451885,
+  "comunes_tambien_en_sesgos": 0.20644199530058227,
+  "control_pm_adoptado": {
+   "pm": 0.30552276616654805,
+   "error_reproduccion": 4.999958311269204e-07,
+   "pm_permutado": 0.3008596884317208,
+   "cobertura_evidencia": 0.9557523131672598,
+   "cobertura_evidencia_permutada": 0.9519715302491104,
+   "pm_por_segmento": {
+    "escasos": 0.24482618296955505,
+    "medios": 0.2891905301326398,
+    "densos": 0.4896229122679426
+   },
+   "pm_permutado_por_segmento": {
+    "escasos": 0.2415040208920065,
+    "medios": 0.2850394029664782,
+    "densos": 0.4803365762892783
+   }
+  },
+  "control_pm_otros": {
+   "sgd_lr0.005_ep30_s0.1_seed42": {
+    "pm": 0.3070260010533808,
+    "error_reproduccion": 4.999969821506411e-07,
+    "pm_permutado": 0.30102086117179944,
+    "cobertura_evidencia": 0.9542633451957295,
+    "cobertura_evidencia_permutada": 0.9509798339264531,
+    "pm_por_segmento": {
+     "escasos": 0.24605767021077285,
+     "medios": 0.2911854921196359,
+     "densos": 0.4898720711004784
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": 0.24090048586697213,
+     "medios": 0.2853918262782669,
+     "densos": 0.4813564022640852
+    }
+   },
+   "sgd_lr0.02_ep10_s0.1_seed42": {
+    "pm": 0.30909387857651244,
+    "error_reproduccion": 4.999779696368556e-07,
+    "pm_permutado": 0.30176788046933806,
+    "cobertura_evidencia": 0.9544483985765124,
+    "cobertura_evidencia_permutada": 0.9522752075919336,
+    "pm_por_segmento": {
+     "escasos": 0.24763152899297428,
+     "medios": 0.29303696442132643,
+     "densos": 0.4937455066028708
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": 0.24197438921428185,
+     "medios": 0.28615077959344676,
+     "densos": 0.4813916667825889
+    }
+   },
+   "evo_dir_s0.1_seed42": {
+    "pm": 0.3005870709181495,
+    "error_reproduccion": 4.999969196450849e-07,
+    "pm_permutado": 0.29864044816780294,
+    "cobertura_evidencia": 0.9512313167259786,
+    "cobertura_evidencia_permutada": 0.9512550415183867,
+    "pm_por_segmento": {
+     "escasos": 0.24023607423887586,
+     "medios": 0.28467635882964887,
+     "densos": 0.48243019617224875
+    },
+    "pm_permutado_por_segmento": {
+     "escasos": 0.2390542561319772,
+     "medios": 0.2827695011971152,
+     "densos": 0.4787747171618529
+    }
+   }
+  }
+ }
+}

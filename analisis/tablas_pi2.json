@@ -1,0 +1,320 @@
+{
+ "movielens": {
+  "usuarios_evaluados": {
+   "poblacion": 943,
+   "recomendaciones": 9430,
+   "usuarios_ranking": 928,
+   "excluidos_por_la_condicion": 0.01590668080593849,
+   "n_train": 80000,
+   "n_test": 20000,
+   "efecto_de_la_condicion": {
+    "confidence": {
+     "poblacion": 0.6828506271474019,
+     "con_condicion": 0.6849941344827586,
+     "diferencia_relativa": 0.0031390574309219
+    },
+    "preference_match": {
+     "poblacion": 0.4768543016967126,
+     "con_condicion": 0.4801336183189655,
+     "diferencia_relativa": 0.00687697816835171
+    },
+    "ablation_shift": {
+     "poblacion": 0.0527924117709438,
+     "con_condicion": 0.05261425161637931,
+     "diferencia_relativa": -0.0033747303558983575
+    },
+    "necessity": {
+     "poblacion": 0.6885471898197242,
+     "con_condicion": 0.6878232758620689,
+     "diferencia_relativa": -0.0010513643340041645
+    }
+   }
+  },
+  "caso_tipico": {
+   "medianas": {
+    "confidence": 0.7003382,
+    "preference_match": 0.48704179999999997,
+    "ablation_shift": 0.0486733
+   },
+   "mediana_interacciones_train": 52,
+   "primeros": [
+    {
+     "usuario": "224",
+     "puesto": 1,
+     "distancia": 0.1204622458832482,
+     "n_train": 113,
+     "percentil_historial": 73.38282078472959,
+     "confidence": 0.700042,
+     "preference_match": 0.4871767,
+     "ablation_shift": 0.05188
+    },
+    {
+     "usuario": "746",
+     "puesto": 2,
+     "distancia": 0.18033976959844353,
+     "n_train": 54,
+     "percentil_historial": 52.17391304347826,
+     "confidence": 0.7101995999999999,
+     "preference_match": 0.4912793,
+     "ablation_shift": 0.0484022
+    },
+    {
+     "usuario": "908",
+     "puesto": 3,
+     "distancia": 0.18061738054389923,
+     "n_train": 59,
+     "percentil_historial": 54.50689289501591,
+     "confidence": 0.6953315,
+     "preference_match": 0.4754378,
+     "ablation_shift": 0.0484196
+    },
+    {
+     "usuario": "918",
+     "puesto": 4,
+     "distancia": 0.2186327657064384,
+     "n_train": 82,
+     "percentil_historial": 62.77836691410393,
+     "confidence": 0.7037232,
+     "preference_match": 0.479078,
+     "ablation_shift": 0.0515003
+    },
+    {
+     "usuario": "539",
+     "puesto": 5,
+     "distancia": 0.25580123379552855,
+     "n_train": 45,
+     "percentil_historial": 44.7507953340403,
+     "confidence": 0.695129,
+     "preference_match": 0.49930240000000004,
+     "ablation_shift": 0.0507788
+    }
+   ]
+  },
+  "recorte": {
+   "recomendaciones_recortadas": 0.12025450689289502,
+   "usuarios_con_las_diez_recortadas": 0.08059384941675504
+  },
+  "afinidad_mayor_que_sesgo_de_item": 0.05111346765641569,
+  "dimensiones": {
+   "usuarios_con_alguna_dimension_inactiva": 0.4462354188759279,
+   "rango_efectivo": 5.966701196563064
+  },
+  "evidencia": {
+   "media_por_recomendacion": 4.973276776246023,
+   "recomendaciones_con_dos_o_menos": 0.002226935312831389,
+   "interacciones_sobre_el_umbral": 0.82445
+  }
+ },
+ "bookcrossing": {
+  "usuarios_evaluados": {
+   "poblacion": 7025,
+   "recomendaciones": 70250,
+   "usuarios_ranking": 5339,
+   "excluidos_por_la_condicion": 0.24,
+   "n_train": 95149,
+   "n_test": 23519,
+   "efecto_de_la_condicion": {
+    "confidence": {
+     "poblacion": 0.4213384147900356,
+     "con_condicion": 0.4412636345383031,
+     "diferencia_relativa": 0.04729029931485544
+    },
+    "preference_match": {
+     "poblacion": 0.30688390301779356,
+     "con_condicion": 0.32956526516201534,
+     "diferencia_relativa": 0.0739086081778186
+    },
+    "ablation_shift": {
+     "poblacion": 0.11289578089679717,
+     "con_condicion": 0.11185103766622963,
+     "diferencia_relativa": -0.009254050260058719
+    },
+    "necessity": {
+     "poblacion": 0.9587330960854094,
+     "con_condicion": 0.9562839483049261,
+     "diferencia_relativa": -0.0025545668450200603
+    }
+   }
+  },
+  "caso_tipico": {
+   "medianas": {
+    "confidence": 0.39930370000000004,
+    "preference_match": 0.29406119999999997,
+    "ablation_shift": 0.109083
+   },
+   "mediana_interacciones_train": 7,
+   "primeros": [
+    {
+     "usuario": "3331",
+     "puesto": 1,
+     "distancia": 0.017398114941448443,
+     "n_train": 7,
+     "percentil_historial": 53.12455516014235,
+     "confidence": 0.3993938,
+     "preference_match": 0.2958437,
+     "ablation_shift": 0.10919229999999999
+    },
+    {
+     "usuario": "265607",
+     "puesto": 2,
+     "distancia": 0.053882923508181024,
+     "n_train": 8,
+     "percentil_historial": 57.836298932384345,
+     "confidence": 0.40156539999999996,
+     "preference_match": 0.2919124,
+     "ablation_shift": 0.1097734
+    },
+    {
+     "usuario": "177073",
+     "puesto": 3,
+     "distancia": 0.05584300494908212,
+     "n_train": 8,
+     "percentil_historial": 57.836298932384345,
+     "confidence": 0.39989470000000005,
+     "preference_match": 0.2971386,
+     "ablation_shift": 0.1078098
+    },
+    {
+     "usuario": "75809",
+     "puesto": 4,
+     "distancia": 0.08679538729204454,
+     "n_train": 6,
+     "percentil_historial": 46.88967971530249,
+     "confidence": 0.39163889999999996,
+     "preference_match": 0.2948774,
+     "ablation_shift": 0.10919870000000001
+    },
+    {
+     "usuario": "75013",
+     "puesto": 5,
+     "distancia": 0.08816008263983495,
+     "n_train": 6,
+     "percentil_historial": 46.88967971530249,
+     "confidence": 0.3985434,
+     "preference_match": 0.295371,
+     "ablation_shift": 0.1126291
+    }
+   ]
+  },
+  "recorte": {
+   "recomendaciones_recortadas": 0.3955160142348754,
+   "usuarios_con_las_diez_recortadas": 0.3081850533807829
+  },
+  "afinidad_mayor_que_sesgo_de_item": 0.5067046263345196,
+  "dimensiones": {
+   "usuarios_con_alguna_dimension_inactiva": 0.3562989323843416,
+   "rango_efectivo": 5.995049910032604
+  },
+  "evidencia": {
+   "media_por_recomendacion": 3.2794448398576512,
+   "recomendaciones_con_dos_o_menos": 0.3519003558718861,
+   "interacciones_sobre_el_umbral": 0.8688057677957729
+  }
+ },
+ "lastfm": {
+  "usuarios_evaluados": {
+   "poblacion": 1859,
+   "recomendaciones": 18590,
+   "usuarios_ranking": 1015,
+   "excluidos_por_la_condicion": 0.45400753093060786,
+   "n_train": 57091,
+   "n_test": 14264,
+   "efecto_de_la_condicion": {
+    "confidence": {
+     "poblacion": 0.42843723571812803,
+     "con_condicion": 0.4622091330049261,
+     "diferencia_relativa": 0.07882577533250834
+    },
+    "preference_match": {
+     "poblacion": 0.15895278945669714,
+     "con_condicion": 0.22076470689655173,
+     "diferencia_relativa": 0.38886966155881
+    },
+    "ablation_shift": {
+     "poblacion": 0.09013494927380312,
+     "con_condicion": 0.09004394945812809,
+     "diferencia_relativa": -0.0010095952392296294
+    },
+    "necessity": {
+     "poblacion": 0.9499731038192577,
+     "con_condicion": 0.9526108374384237,
+     "diferencia_relativa": 0.0027766403159850176
+    }
+   }
+  },
+  "caso_tipico": {
+   "medianas": {
+    "confidence": 0.44159129999999996,
+    "preference_match": 0.1820044,
+    "ablation_shift": 0.0867112
+   },
+   "mediana_interacciones_train": 33,
+   "primeros": [
+    {
+     "usuario": "333",
+     "puesto": 1,
+     "distancia": 0.09084404845996691,
+     "n_train": 31,
+     "percentil_historial": 43.67939752555137,
+     "confidence": 0.4408295,
+     "preference_match": 0.1818284,
+     "ablation_shift": 0.0835801
+    },
+    {
+     "usuario": "2037",
+     "puesto": 2,
+     "distancia": 0.17276861648418163,
+     "n_train": 40,
+     "percentil_historial": 100.0,
+     "confidence": 0.44643750000000004,
+     "preference_match": 0.1892433,
+     "ablation_shift": 0.0851667
+    },
+    {
+     "usuario": "606",
+     "puesto": 3,
+     "distancia": 0.20223184151574156,
+     "n_train": 35,
+     "percentil_historial": 66.91769768692846,
+     "confidence": 0.43690940000000006,
+     "preference_match": 0.17315039999999998,
+     "ablation_shift": 0.0844372
+    },
+    {
+     "usuario": "738",
+     "puesto": 4,
+     "distancia": 0.2192005936010063,
+     "n_train": 35,
+     "percentil_historial": 66.91769768692846,
+     "confidence": 0.45040209999999997,
+     "preference_match": 0.1917827,
+     "ablation_shift": 0.0868646
+    },
+    {
+     "usuario": "1896",
+     "puesto": 5,
+     "distancia": 0.22899267474553148,
+     "n_train": 32,
+     "percentil_historial": 47.337278106508876,
+     "confidence": 0.4483882,
+     "preference_match": 0.1936418,
+     "ablation_shift": 0.08558869999999999
+    }
+   ]
+  },
+  "recorte": {
+   "recomendaciones_recortadas": 0.0,
+   "usuarios_con_las_diez_recortadas": 0.0
+  },
+  "afinidad_mayor_que_sesgo_de_item": 0.7187197417966649,
+  "dimensiones": {
+   "usuarios_con_alguna_dimension_inactiva": 0.4228079612694997,
+   "rango_efectivo": 5.983216900579341
+  },
+  "evidencia": {
+   "media_por_recomendacion": 2.2924690693921463,
+   "recomendaciones_con_dos_o_menos": 0.570414201183432,
+   "interacciones_sobre_el_umbral": 0.20330700110350142
+  }
+ }
+}

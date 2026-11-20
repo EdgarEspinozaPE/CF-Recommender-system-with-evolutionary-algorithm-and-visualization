@@ -1,0 +1,170 @@
+{
+ "movielens": {
+  "evo_dir_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.5692536519683921,
+   "J_sesgos_propios": 0.8255998155255844,
+   "J_rec_solo_sesgos_propios": 0.6041219296786634,
+   "comunes_en_sesgos_propios": 0.9876106194690265,
+   "J_sesgos_analiticos": 0.6195518426430409,
+   "comunes_en_sesgos_analiticos": 0.897787610619469
+  },
+  "evo_dir_s0.4082": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.1196461607499104,
+   "J_sesgos_propios": 0.24765440409841552,
+   "J_rec_solo_sesgos_propios": 0.6170060939414068,
+   "comunes_en_sesgos_propios": 0.8472296933835395,
+   "J_sesgos_analiticos": 0.20749486074522433,
+   "comunes_en_sesgos_analiticos": 0.7122108660570199
+  },
+  "evo_nodir_s0.4082": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.06049835982466511,
+   "J_sesgos_propios": 0.1566042841589562,
+   "J_rec_solo_sesgos_propios": 0.6851102238164805,
+   "comunes_en_sesgos_propios": 0.6509803921568628,
+   "J_sesgos_analiticos": 0.15443453553743158,
+   "comunes_en_sesgos_analiticos": 0.615686274509804
+  },
+  "sgd_lr0.005_ep10_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.6898654544465785,
+   "J_sesgos_propios": 0.7791865257400783,
+   "J_rec_solo_sesgos_propios": 0.8720074552524182,
+   "comunes_en_sesgos_propios": 0.9761467889908257,
+   "J_sesgos_analiticos": 0.6744665726638155,
+   "comunes_en_sesgos_analiticos": 0.8764089121887287
+  },
+  "sgd_lr0.005_ep30_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.37275769523569013,
+   "J_sesgos_propios": 0.4407996330574788,
+   "J_rec_solo_sesgos_propios": 0.8608245766252128,
+   "comunes_en_sesgos_propios": 0.8438133874239351,
+   "J_sesgos_analiticos": 0.36932514642929326,
+   "comunes_en_sesgos_analiticos": 0.7004056795131846
+  },
+  "sgd_lr0.02_ep10_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.27253733369105226,
+   "J_sesgos_propios": 0.37168468940996835,
+   "J_rec_solo_sesgos_propios": 0.6482559504828858,
+   "comunes_en_sesgos_propios": 0.7956544231764098,
+   "J_sesgos_analiticos": 0.2690514181781923,
+   "comunes_en_sesgos_analiticos": 0.5576823590274185
+  }
+ },
+ "bookcrossing": {
+  "evo_dir_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.4700967729500281,
+   "J_sesgos_propios": 0.7441781883596831,
+   "J_rec_solo_sesgos_propios": 0.5345143587136469,
+   "comunes_en_sesgos_propios": 0.9770949469519871,
+   "J_sesgos_analiticos": 0.6353728063158668,
+   "comunes_en_sesgos_analiticos": 0.965878439129653
+  },
+  "evo_dir_s0.4082": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.0071683762472960705,
+   "J_sesgos_propios": 0.055156584084836785,
+   "J_rec_solo_sesgos_propios": 0.2509744111167599,
+   "comunes_en_sesgos_propios": 0.667375132837407,
+   "J_sesgos_analiticos": 0.00913234957465536,
+   "comunes_en_sesgos_analiticos": 0.030818278427205102
+  },
+  "evo_nodir_s0.4082": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.0037268735302074876,
+   "J_sesgos_propios": 0.019800267026669857,
+   "J_rec_solo_sesgos_propios": 0.4310586210942083,
+   "comunes_en_sesgos_propios": 0.3245967741935484,
+   "J_sesgos_analiticos": 0.016294328557420346,
+   "comunes_en_sesgos_analiticos": 0.08669354838709678
+  },
+  "sgd_lr0.005_ep10_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.5970733299914794,
+   "J_sesgos_propios": 0.6789936753637821,
+   "J_rec_solo_sesgos_propios": 0.8158697293216867,
+   "comunes_en_sesgos_propios": 0.9507197908858521,
+   "J_sesgos_analiticos": 0.23980730080247503,
+   "comunes_en_sesgos_analiticos": 0.36302831113417516
+  },
+  "sgd_lr0.005_ep30_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.60487003395898,
+   "J_sesgos_propios": 0.6896082739944775,
+   "J_rec_solo_sesgos_propios": 0.8160034508788958,
+   "comunes_en_sesgos_propios": 0.956032836960672,
+   "J_sesgos_analiticos": 0.0961345053723556,
+   "comunes_en_sesgos_analiticos": 0.14152348224513173
+  },
+  "sgd_lr0.02_ep10_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.5788925110833818,
+   "J_sesgos_propios": 0.6922972935089107,
+   "J_rec_solo_sesgos_propios": 0.8159603148926994,
+   "comunes_en_sesgos_propios": 0.9609564105087081,
+   "J_sesgos_analiticos": 0.05780115979712731,
+   "comunes_en_sesgos_analiticos": 0.07712289678244613
+  }
+ },
+ "lastfm": {
+  "evo_dir_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.3664391849295181,
+   "J_sesgos_propios": 0.6214258143386707,
+   "J_rec_solo_sesgos_propios": 0.5361068911364769,
+   "comunes_en_sesgos_propios": 0.9720687538367097,
+   "J_sesgos_analiticos": 0.4834592018324575,
+   "comunes_en_sesgos_analiticos": 0.85451197053407
+  },
+  "evo_dir_s0.4082": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.008025137520255405,
+   "J_sesgos_propios": 0.06278142751112506,
+   "J_rec_solo_sesgos_propios": 0.30518199748968977,
+   "comunes_en_sesgos_propios": 0.4607142857142857,
+   "J_sesgos_analiticos": 0.02221956749820527,
+   "comunes_en_sesgos_analiticos": 0.10357142857142858
+  },
+  "evo_nodir_s0.4082": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.00397623069687847,
+   "J_sesgos_propios": 0.02176641727725319,
+   "J_rec_solo_sesgos_propios": 0.5604495916491613,
+   "comunes_en_sesgos_propios": 0.2785714285714286,
+   "J_sesgos_analiticos": 0.02236646949673861,
+   "comunes_en_sesgos_analiticos": 0.2642857142857143
+  },
+  "sgd_lr0.005_ep10_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.6526578137659365,
+   "J_sesgos_propios": 0.7432073932880818,
+   "J_rec_solo_sesgos_propios": 0.9891437234094577,
+   "comunes_en_sesgos_propios": 0.9631184201472511,
+   "J_sesgos_analiticos": 0.541428354313998,
+   "comunes_en_sesgos_analiticos": 0.8424963875318241
+  },
+  "sgd_lr0.005_ep30_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.6366940735750659,
+   "J_sesgos_propios": 0.7169601735900821,
+   "J_rec_solo_sesgos_propios": 0.9271358012616754,
+   "comunes_en_sesgos_propios": 0.9313472406335032,
+   "J_sesgos_analiticos": 0.3851887467446117,
+   "comunes_en_sesgos_analiticos": 0.6032930998395312
+  },
+  "sgd_lr0.02_ep10_s0.1": {
+   "reproduccion_listas": 1.0,
+   "J_rec": 0.620051232611749,
+   "J_sesgos_propios": 0.733841982833376,
+   "J_rec_solo_sesgos_propios": 0.8284023668639053,
+   "comunes_en_sesgos_propios": 0.9622212753870188,
+   "J_sesgos_analiticos": 0.3416591626650798,
+   "comunes_en_sesgos_analiticos": 0.5375656866922313
+  }
+ }
+}
